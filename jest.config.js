@@ -2,7 +2,7 @@ module.exports = {
   verbose: true,
   testURL: "http://localhost/",
   roots: [
-    '<rootDir>/packages'
+    '<rootDir>'
   ],
   globals: {
     'ts-jest': {
@@ -15,7 +15,7 @@ module.exports = {
     '^.+\\.(ts|tsx)$': 'ts-jest',
     // '^.+\\.(ts|tsx)$': './node_modules/ts-jest/preprocessor.js'
   },
-  testRegex: '(roots/.*|(\\.|/)(test))\\.(ts|tsx)?$',
+  testRegex: '(roots/.*|(\\.|/)(test))\\.(tsx)?$',
   moduleFileExtensions: [
     'ts',
     'tsx',
